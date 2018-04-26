@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from 'redux';
-// import thunk from 'redux-thunk';
+import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 
 const defaultState = {
@@ -13,5 +13,5 @@ function amount (state = defaultState, action: any ) {
     return state;
 }
 
-const store = createStore(amount , applyMiddleware( logger));
+const store = createStore(amount, applyMiddleware(thunk, logger));
 export default store;
