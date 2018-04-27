@@ -11,6 +11,7 @@
     "no-shadowed-variable": false,
     "ordered-imports":false,
     "jsx-wrap-multiline": false,
-    "jsx-boolean-value":false
+    "jsx-boolean-value":false,
+    "no-string-literal":false
   }
 }
