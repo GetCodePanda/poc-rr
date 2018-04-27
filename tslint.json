@@ -9,6 +9,8 @@
   "rules":{
     "no-console": false,
     "no-shadowed-variable": false,
-    "ordered-imports":false
+    "ordered-imports":false,
+    "jsx-wrap-multiline": false,
+    "jsx-boolean-value":false
   }
 }
